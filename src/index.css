@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root{
+  font-size: 2em;
+}
+
+.active{
+  font-weight: bold;
+  border: 2px solid orchid;
+  background-color: rgba(255, 166, 0, 0.497);
+  color: orangered;
+}
