@@ -39,6 +39,8 @@ const Login = () => {
     .then(result=>{
       result.user
       alert('sign in with google')
+      navigate(location?.state || '/')
+
     })
     .catch(error =>{
       console.log(error);
